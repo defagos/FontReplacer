@@ -22,6 +22,7 @@ static void initializeReplacementFonts()
 	initialized = YES;
 	
 	NSDictionary *replacementDictionary = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"ReplacementFonts"];
+	NSLog(@"ReplacementFonts = %@", replacementDictionary);
 	[UIFont setReplacementDictionary:replacementDictionary];
 }
 
