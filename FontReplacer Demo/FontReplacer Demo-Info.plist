@@ -28,10 +28,15 @@
 	<true/>
 	<key>ReplacementFonts</key>
 	<dict>
-		<key>ArialMT</key>
+		<key>Arial-BoldItalicMT</key>
 		<dict>
 			<key>Name</key>
-			<string>CaviarDreams</string>
+			<string>CaviarDreams-BoldItalic</string>
+		</dict>
+		<key>Arial-BoldMT</key>
+		<dict>
+			<key>Name</key>
+			<string>CaviarDreams-Bold</string>
 		</dict>
 		<key>Arial-ItalicMT</key>
 		<dict>
@@ -40,19 +45,33 @@
 			<key>Offset</key>
 			<real>0.3</real>
 		</dict>
-		<key>Arial-BoldMT</key>
+		<key>ArialMT</key>
 		<dict>
 			<key>Name</key>
-			<string>CaviarDreams-Bold</string>
+			<string>CaviarDreams</string>
 		</dict>
-		<key>Arial-BoldItalicMT</key>
+	</dict>
+	<key>ReplacementImages</key>
+	<dict>
+		<key>img_grid_cell_white.png</key>
 		<dict>
-			<key>Name</key>
-			<string>CaviarDreams-BoldItalic</string>
+			<key>Insets</key>
+			<string>{0.0,0.0,1.0,1.0}</string>
+			<key>Tile</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>ReplacementColors</key>
+	<dict>
+		<key>{150,150,150}</key>
+		<dict>
+			<key>Image</key>
+			<string>img_grid_cell_pattern.png</string>
 		</dict>
 	</dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Interstate-Bold.otf</string>
 		<string>CaviarDreams.ttf</string>
 		<string>CaviarDreams_Italic.ttf</string>
 		<string>CaviarDreams_Bold.ttf</string>

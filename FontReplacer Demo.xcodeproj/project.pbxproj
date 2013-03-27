@@ -10,6 +10,16 @@
 		6FB0365D14BFFEC900626500 /* AdjustmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB0365C14BFFEC900626500 /* AdjustmentViewController.m */; };
 		6FB0366014BFFEF500626500 /* AdjustmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FB0365F14BFFEF500626500 /* AdjustmentViewController.xib */; };
 		6FB0366414C0030200626500 /* OBSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB0366314C0030200626500 /* OBSlider.m */; };
+		C394CE3D16F074440008BDEF /* img_grid_cell_white.png in Resources */ = {isa = PBXBuildFile; fileRef = C394CE3B16F074440008BDEF /* img_grid_cell_white.png */; };
+		C394CE3E16F074440008BDEF /* img_grid_cell_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C394CE3C16F074440008BDEF /* img_grid_cell_white@2x.png */; };
+		C394CE4116F093D00008BDEF /* UIImage+Replacement.m in Sources */ = {isa = PBXBuildFile; fileRef = C394CE4016F093D00008BDEF /* UIImage+Replacement.m */; };
+		C394CE4216F093D00008BDEF /* UIImage+Replacement.m in Sources */ = {isa = PBXBuildFile; fileRef = C394CE4016F093D00008BDEF /* UIImage+Replacement.m */; };
+		C394CE4916F09FE60008BDEF /* UIColor+Replacement.m in Sources */ = {isa = PBXBuildFile; fileRef = C394CE4816F09FE60008BDEF /* UIColor+Replacement.m */; };
+		C394CE4A16F09FE60008BDEF /* UIColor+Replacement.m in Sources */ = {isa = PBXBuildFile; fileRef = C394CE4816F09FE60008BDEF /* UIColor+Replacement.m */; };
+		C394CE4D16F0AA1D0008BDEF /* img_grid_cell_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = C394CE4B16F0AA1D0008BDEF /* img_grid_cell_pattern.png */; };
+		C394CE4E16F0AA1D0008BDEF /* img_grid_cell_pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C394CE4C16F0AA1D0008BDEF /* img_grid_cell_pattern@2x.png */; };
+		C3FFA0FC16E90838003A6F1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA98620013F01BCE006DEC9A /* Foundation.framework */; };
+		C3FFA10716E9084C003A6F1C /* UIFont+Replacement.m in Sources */ = {isa = PBXBuildFile; fileRef = DA98621B13F01E63006DEC9A /* UIFont+Replacement.m */; };
 		DA336B6B13F01F5D00A60EA6 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA336B6A13F01F5D00A60EA6 /* DemoViewController.xib */; };
 		DA4C182113F446120015A600 /* FontsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4C181F13F446110015A600 /* FontsViewController.m */; };
 		DA6C855713F02703007060AF /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA6C855213F02703007060AF /* CaviarDreams.ttf */; };
@@ -24,12 +34,33 @@
 		DA98621C13F01E63006DEC9A /* UIFont+Replacement.m in Sources */ = {isa = PBXBuildFile; fileRef = DA98621B13F01E63006DEC9A /* UIFont+Replacement.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C3FFA0F916E90838003A6F1C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		6FB0365B14BFFEC900626500 /* AdjustmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjustmentViewController.h; sourceTree = "<group>"; };
 		6FB0365C14BFFEC900626500 /* AdjustmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjustmentViewController.m; sourceTree = "<group>"; };
 		6FB0365F14BFFEF500626500 /* AdjustmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdjustmentViewController.xib; sourceTree = "<group>"; };
 		6FB0366214C0030200626500 /* OBSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSlider.h; sourceTree = "<group>"; };
 		6FB0366314C0030200626500 /* OBSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSlider.m; sourceTree = "<group>"; };
+		C394CE3B16F074440008BDEF /* img_grid_cell_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_grid_cell_white.png; sourceTree = "<group>"; };
+		C394CE3C16F074440008BDEF /* img_grid_cell_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_grid_cell_white@2x.png"; sourceTree = "<group>"; };
+		C394CE3F16F093D00008BDEF /* UIImage+Replacement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Replacement.h"; path = "UIImageNibPlaceholder+Replacement/UIImage+Replacement.h"; sourceTree = SOURCE_ROOT; };
+		C394CE4016F093D00008BDEF /* UIImage+Replacement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Replacement.m"; path = "UIImageNibPlaceholder+Replacement/UIImage+Replacement.m"; sourceTree = SOURCE_ROOT; };
+		C394CE4716F09FE60008BDEF /* UIColor+Replacement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Replacement.h"; sourceTree = "<group>"; };
+		C394CE4816F09FE60008BDEF /* UIColor+Replacement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Replacement.m"; sourceTree = "<group>"; };
+		C394CE4B16F0AA1D0008BDEF /* img_grid_cell_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_grid_cell_pattern.png; sourceTree = "<group>"; };
+		C394CE4C16F0AA1D0008BDEF /* img_grid_cell_pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_grid_cell_pattern@2x.png"; sourceTree = "<group>"; };
+		C3FFA0FB16E90838003A6F1C /* libFontReplacer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFontReplacer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA336B6A13F01F5D00A60EA6 /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
 		DA4C181E13F446110015A600 /* FontsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontsViewController.h; sourceTree = "<group>"; };
 		DA4C181F13F446110015A600 /* FontsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontsViewController.m; sourceTree = "<group>"; };
@@ -51,6 +82,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C3FFA0F816E90838003A6F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FFA0FC16E90838003A6F1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA9861F713F01BCE006DEC9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,6 +112,35 @@
 			path = "FontReplacer Demo/OBSlider";
 			sourceTree = "<group>";
 		};
+		C394CE3A16F074440008BDEF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C394CE4B16F0AA1D0008BDEF /* img_grid_cell_pattern.png */,
+				C394CE4C16F0AA1D0008BDEF /* img_grid_cell_pattern@2x.png */,
+				C394CE3B16F074440008BDEF /* img_grid_cell_white.png */,
+				C394CE3C16F074440008BDEF /* img_grid_cell_white@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C394CE4316F094000008BDEF /* UIImageNibPlaceholder+Replacement */ = {
+			isa = PBXGroup;
+			children = (
+				C394CE3F16F093D00008BDEF /* UIImage+Replacement.h */,
+				C394CE4016F093D00008BDEF /* UIImage+Replacement.m */,
+			);
+			name = "UIImageNibPlaceholder+Replacement";
+			sourceTree = "<group>";
+		};
+		C394CE4616F09FE60008BDEF /* UIColor+Replacement */ = {
+			isa = PBXGroup;
+			children = (
+				C394CE4716F09FE60008BDEF /* UIColor+Replacement.h */,
+				C394CE4816F09FE60008BDEF /* UIColor+Replacement.m */,
+			);
+			path = "UIColor+Replacement";
+			sourceTree = "<group>";
+		};
 		DA6C855113F02703007060AF /* CaviarDreams */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +157,8 @@
 			children = (
 				6FB0366114C0030200626500 /* OBSlider */,
 				DA98621913F01E55006DEC9A /* UIFont+Replacement */,
+				C394CE4316F094000008BDEF /* UIImageNibPlaceholder+Replacement */,
+				C394CE4616F09FE60008BDEF /* UIColor+Replacement */,
 				DA98620213F01BCE006DEC9A /* FontReplacer Demo */,
 				DA9861FD13F01BCE006DEC9A /* Frameworks */,
 				DA9861FB13F01BCE006DEC9A /* Products */,
@@ -100,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				DA9861FA13F01BCE006DEC9A /* FontReplacer Demo.app */,
+				C3FFA0FB16E90838003A6F1C /* libFontReplacer.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +196,7 @@
 				DA4C181E13F446110015A600 /* FontsViewController.h */,
 				DA4C181F13F446110015A600 /* FontsViewController.m */,
 				DA6C855113F02703007060AF /* CaviarDreams */,
+				C394CE3A16F074440008BDEF /* Images */,
 				DA98620313F01BCE006DEC9A /* Supporting Files */,
 			);
 			path = "FontReplacer Demo";
@@ -153,6 +225,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C3FFA0FA16E90838003A6F1C /* FontReplacer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FFA10416E90838003A6F1C /* Build configuration list for PBXNativeTarget "FontReplacer" */;
+			buildPhases = (
+				C3FFA0F716E90838003A6F1C /* Sources */,
+				C3FFA0F816E90838003A6F1C /* Frameworks */,
+				C3FFA0F916E90838003A6F1C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontReplacer;
+			productName = FontReplacer;
+			productReference = C3FFA0FB16E90838003A6F1C /* libFontReplacer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		DA9861F913F01BCE006DEC9A /* FontReplacer Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA98621613F01BCE006DEC9A /* Build configuration list for PBXNativeTarget "FontReplacer Demo" */;
@@ -192,6 +281,7 @@
 			projectRoot = "";
 			targets = (
 				DA9861F913F01BCE006DEC9A /* FontReplacer Demo */,
+				C3FFA0FA16E90838003A6F1C /* FontReplacer */,
 			);
 		};
 /* End PBXProject section */
@@ -208,12 +298,26 @@
 				DA6C855A13F02703007060AF /* CaviarDreams_Italic.ttf in Resources */,
 				DA6C856513F035EA007060AF /* Icon@2x.png in Resources */,
 				6FB0366014BFFEF500626500 /* AdjustmentViewController.xib in Resources */,
+				C394CE3D16F074440008BDEF /* img_grid_cell_white.png in Resources */,
+				C394CE3E16F074440008BDEF /* img_grid_cell_white@2x.png in Resources */,
+				C394CE4D16F0AA1D0008BDEF /* img_grid_cell_pattern.png in Resources */,
+				C394CE4E16F0AA1D0008BDEF /* img_grid_cell_pattern@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C3FFA0F716E90838003A6F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FFA10716E9084C003A6F1C /* UIFont+Replacement.m in Sources */,
+				C394CE4216F093D00008BDEF /* UIImage+Replacement.m in Sources */,
+				C394CE4A16F09FE60008BDEF /* UIColor+Replacement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA9861F613F01BCE006DEC9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,12 +328,55 @@
 				DA4C182113F446120015A600 /* FontsViewController.m in Sources */,
 				6FB0365D14BFFEC900626500 /* AdjustmentViewController.m in Sources */,
 				6FB0366414C0030200626500 /* OBSlider.m in Sources */,
+				C394CE4116F093D00008BDEF /* UIImage+Replacement.m in Sources */,
+				C394CE4916F09FE60008BDEF /* UIColor+Replacement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		C3FFA10516E90838003A6F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/FontReplacer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C3FFA10616E90838003A6F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/FontReplacer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		DA98621413F01BCE006DEC9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -298,6 +445,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C3FFA10416E90838003A6F1C /* Build configuration list for PBXNativeTarget "FontReplacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FFA10516E90838003A6F1C /* Debug */,
+				C3FFA10616E90838003A6F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DA9861F413F01BCD006DEC9A /* Build configuration list for PBXProject "FontReplacer Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
